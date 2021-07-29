@@ -1,0 +1,159 @@
+- var pageTitle = 'Online TV'
+
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    style 
+      include styles/normalize.css 
+      include styles/style.css
+  body
+    include modules/header
+    
+  
+  section.section-banner
+    img(src="/src/images/pexels-sebastiaan-stam-1480690 1.png", alt="banner").section-banner__image
+    .container
+      .banner
+        h1.banner__title Zack Snyder's Justice League
+        .banner-info 
+          span.banner-info__year 2021
+          span.banner-info__age 18+
+          span.banner-info__time 4h 2min
+          span.banner-info__rating 8.8 
+        p.banner__text Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.
+        .banner-control 
+        button.banner-control__btn.banner-control__btn-main Watch
+        button.banner-control__btn.banner-control__btn-more More information
+
+  section.section
+    .container
+      h2.section__h2 
+        a(href="#").section__h2-link Trending TV Shows
+      .movies 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/mask Group.svg", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/2.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/6.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/3.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/4.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/5 1.png", alt="").movies__img 
+  section.section
+    .container
+      h2.section__h2 
+        a(href="#").section__h2-link Trending Movies
+      .movies 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/f1.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/f2.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/f3.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/f4.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/f5.png", alt="").movies__img 
+        .movies-item 
+          a(href="#").movies__link
+            img(src="/src/images/f6.png", alt="").movies__img 
+      button.section-btn See more
+  section.section
+    .container
+      h2.section__h2 
+        a(href="#").section__h2-link Popular Genres
+      .genres 
+        .genres-item.genres-item_romance
+          .genres-icon
+            img(src="../src/images/hearts 1.svg", alt="heart").genres__image 
+          h3.genres__title Romance 
+        .genres-item.genres-item_drama
+          .genres-icon
+            img(src="../src/images/cinema 1.svg", alt="cinema").genres__image 
+          h3.genres__title Drama
+        .genres-item.genres-item_historical 
+          .genres-icon
+            img(src="../src/images/documentary 1.svg", alt="documentary").genres__image 
+          h3.genres__title Historical 
+        .genres-item.genres-item_action
+          .genres-icon
+            img(src="../src/images/killer 1.svg", alt="killer").genres__image 
+          h3.genres__title Action
+        .genres-item.genres-item_sci-fi
+          .genres-icon
+            img(src="../src/images/rocket 1.svg", alt="rocket").genres__image 
+          h3.genres__title Sci-fi 
+        .genres-item.genres-item_horror
+          .genres-icon
+            img(src="../src/images/ghost 1.svg", alt="ghost").genres__image 
+          h3.genres__title Horror 
+        .genres-item.genres-item_comedy
+          .genres-icon
+            img(src="../src/images/smile 1.svg", alt="smile").genres__image 
+          h3.genres__title Comedy 
+        .genres-item.genres-item_documentary
+          .genres-icon
+            img(src="../src/images/castle 1.svg", alt="castle").genres__image 
+          h3.genres__title Documentary 
+  section.section
+    .container
+      h2.section__h2 
+        a(href="#").section__h2-link Popular Actors & Directors 
+      .actors 
+        .actors-item
+          a(href="#").actors__link 
+            img(src="../src/images/Mask Group.png", alt="").actors__img
+          h3.actors__title Samantha Bowen
+        .actors-item
+          a(href="#").actors__link 
+            img(src="../src/images/Mask Group (1).png", alt="").actors__img
+          h3.actors__title Rhys Birch
+        .actors-item
+          a(href="#").actors__link 
+            img(src="../src/images/Mask Group (2).png", alt="").actors__img
+          h3.actors__title James Holloway
+        .actors-item
+          a(href="#").actors__link 
+            img(src="../src/images/Mask Group (3).png", alt="").actors__img
+          h3.actors__title Joshua Walton
+        .actors-item
+          a(href="#").actors__link 
+            img(src="../src/images/Mask Group (4).png", alt="").actors__img
+          h3.actors__title Patrick Elliott
+        .actors-item
+          a(href="#").actors__link 
+            img(src="../src/images/Mask Group (5).png", alt="").actors__img
+          h3.actors__title Morgan O'Neill
+  section.section
+    .container
+      .marketing
+        .marketing-item 
+          a(href="").marketing__link 
+            img(src="../src/images/1bigbunny.png", alt="").marketing__img
+        .marketing-item 
+          a(href="").marketing__link  
+            img(src="../src/images/Mask Group (6).png", alt="").marketing__img
+  section.section
+    .container
+      .offer 
+        h2.offer__title Are You New Here ? Don’t&nbsp;wait, Register Now. 
+        button.offer__btn Register 
+
+
+include modules/footer
+    
